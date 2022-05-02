@@ -1,0 +1,73 @@
+.tabela{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #fcb7af;
+    padding: 50px;
+    border:5px solid black;
+
+}
+
+.linha{
+    border:3px solid #392620;
+}
+
+.linha1{
+    border:3px solid  #392620;
+    color: #80efd8;
+    text-shadow: 1px 2px 1px #000 ; 
+}
+
+.formu{
+    text-align: center;
+    background-color: #fcb7af;
+    height: 400px;
+    padding: 50px;  
+    font-size: 20px;
+}
+
+.botao1{
+    border-radius: #80efd8;
+    font-size: 17;
+}
+
+.input{
+    font-size: medium;
+}
+
+@media (max-width: 788px){
+
+    .box_cab{
+        display: block;
+        text-align: center;
+        height: 320px;
+    }
+
+    .box_cab-nav-ul{
+        display: block;
+        margin: 60px;
+    }
+
+    .box_nav-img{
+        width: 90px;
+        height: 90px;
+    } 
+
+    .texto{
+        background-color: #fcb7af;
+        height: 220px;
+    }
+
+    .formu{
+        height: 600px;
+    }
+	
+	.h4{
+    grid-area: h4;
+	background-color: #fcb7af;
+	padding: 20px;
+	text-align: center;
+	width: 90%;
+	}
+}

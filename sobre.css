@@ -1,0 +1,261 @@
+body{
+    background-image: url(img/imag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+
+
+.box_cab{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: url(img/fundo-chocolate.png);
+    height: 200px;
+}
+
+.h1-lorem{
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto{
+    height: 151px;
+    background-color: #fcb7af;
+}
+
+.box_cab-nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.box_cab-nav-a{
+    padding: 15px;
+    color: #80efd8;
+    font-size: 22px;
+    font-weight: bold;
+	font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.box_nav-img{
+    width: 100px;
+    height: 100px;
+}
+.sobre2{
+    text-align: center;
+    color: #80EFD8;
+    padding: 15px;
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ffe4e1;
+}
+
+.conheca{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: #392620;
+    text-shadow: 1px 1px 2px white;
+    padding: 10px;
+}
+
+.historia{
+    color:  #80EFD8;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.hist{
+    text-align: justify;
+    text-shadow: 1px 2px 2px #80EFD8;
+    padding: 40px;
+   font-size: 15px;
+   font-family: 'Bebas Neue', cursive;
+   background-color: #80efd8;
+}
+.im{
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    border: solid 1px #80efd8;
+   
+}
+
+.miss{
+    border-left: solid 5px #ffe4e1;
+     width: 50px;
+     height: 50px;
+     display: inline;
+}
+
+
+
+.quadrado{
+    display: flex;
+    background-color: #fcb7af;
+    justify-content: space-between;
+    columns: 1fr 1fr;
+    
+}
+
+ .table1{
+     display: flex;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 2px 2px #80EFD8;
+    font-size: 15px;
+    width: 50%;
+ }
+
+ .table2{
+    display: flex;
+   background-color: #fcb7af;
+   font-family: 'Bebas Neue', cursive;
+   text-shadow: 1px 2px 2px #80EFD8;
+   font-size: 15px;
+   width: 50%;
+ }
+
+.miss1{
+     border-left: solid 5px #ffe4e1;
+     width: 50px;
+     height: 50px;
+     display: inline;
+ }
+ 
+ .rodape{
+    font-family: 'rubik', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "um dois tres"
+    "h4 h4 h4";
+    background-color:  #fcb7af;
+    width: 99%;
+    height: 30vh;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 2fr 1fr;
+    border: solid 2px  #ffe4e1;
+}
+
+.h4{
+    grid-area: h4;
+	background-color: #fcb7af;
+	text-align: center;
+	width: 100%;
+}
+
+.um{
+	grid-area: um;
+	background-color: #fcb7af;
+}
+
+.dois{
+	grid-area: dois;
+	background-color: #fcb7af;
+}
+
+.tres{
+	grid-area: tres;
+	background-color: #fcb7af;
+}
+
+.footer-img{
+	width: 50px;
+	height: 50px;
+}
+
+ @media(max-width: 788px){
+
+        .box_cab{
+            display: block;
+            text-align: center;
+            height: 350px;
+        }
+    
+        .box_cab-nav-ul{
+            display: block;
+            margin: 40px;
+        }
+    
+        .box_nav-img{
+            width: 90px;
+            height: 90px;
+        } 
+    
+        .texto{
+            background-color: #fcb7af;
+            height: 220px;
+        }
+    
+     .table1{
+        display: block;
+        text-align: center;
+        height: 350px;
+     }
+     .table2{
+        display: block;
+        text-align: center;
+        height: 350px;
+     }
+     .im{
+        display: block;
+     
+    }
+	
+	.rodape{
+    font-family: 'rubik', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "um um um"
+	"dois dois dois"
+	"tres tres tres"
+    "h4 h4 h4";
+    border: solid black;
+    background-color:  #fcb7af;
+    width: 100%;
+    height: 30vh;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 2fr 1fr;
+    border: solid 2px  #ffe4e1;
+	}
+
+	.h4{
+    grid-area: h4;
+	background-color: #fcb7af;
+	padding: 20px;
+	text-align: center;
+	width: 90%;
+	}
+
+	.um{
+	text-align: center;	
+	padding: 10px;
+	}
+	
+	.dois{
+	text-align: center;
+	padding: 10px;
+	}
+
+	.tres{
+	text-align:center;
+	padding: 10px;
+	}
+ }
+
+ 
+
+ 

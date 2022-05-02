@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+}
+
+.box_cab{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: url(img/fundo-chocolate.png);
+    height: 200px;
+}
+
+.h1{
+	color:  #80EFD8;
+    text-shadow: 1px 2px 2px black;
+    font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto{
+    height: 151px;
+    background-color: #fcb7af;
+}
+
+.box_cab-nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.box_cab-nav-a{
+    padding: 15px;
+    color: #80efd8;
+    font-size: 22px;
+    font-weight: bold;
+	font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.box_nav-img{
+    width: 100px;
+    height: 100px;
+}
+
+.produtos-img{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fcb7af;
+}
+
+.produtos-t{
+    display: flex;
+    justify-content: space-around;
+	font-size: 23px;
+    background-color: #fcb7af;
+    color: #80efd8;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.produtos-p{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #fcb7af;
+	padding: 18px;
+}  
+
+.img-produtos{
+    width: 180px;
+    background-color: #ffe4e1;
+    border: #ffe4e1 solid 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.produtos-botao{
+	display: flex;
+    justify-content: space-around;
+	background-color: #fcb7af;
+}
+
+.botao{
+    color: #fcb7af;
+    background-color: #392620;
+    padding: 10px;
+    border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+
+.imagens{
+    display: grid;
+    grid-template-areas: "img1 img2"
+                         "img3 img34";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    background-color: #fcb7af;
+	grid-gap: 5%;
+	padding: 5%;
+}
+
+.img-grid{
+	border: #ffe4e1 solid 15px;
+    border-radius: 20px;
+	width: 330px;
+	height: 300px;
+	margin-left: 20%;
+}
+
+
+
+.rodape{
+    font-family: 'rubik', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "um dois tres"
+    "h4 h4 h4";
+    background-color:  #fcb7af;
+    width: 100%;
+    height: 30vh;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 2fr 1fr;
+    border: solid 2px  #ffe4e1;
+}
+
+.h4{
+    grid-area: h4;
+	background-color: #fcb7af;
+	text-align: center;
+	width: 100%;
+}
+
+.um{
+	grid-area: um;
+	background-color: #fcb7af;
+}
+
+.dois{
+	grid-area: dois;
+	background-color: #fcb7af;
+}
+
+.tres{
+	grid-area: tres;
+	background-color: #fcb7af;
+}
+
+.footer-img{
+	width: 50px;
+	height: 50px;
+}
+
+
+
+@media (max-width: 788px){
+
+    .box_cab{
+        display: block;
+        text-align: center;
+        height: 350px;
+    }
+
+    .box_cab-nav-ul{
+        display: block;
+        margin: 60px;
+        text-align: center;
+    }
+
+    .box_nav-img{
+        width: 90px;
+        height: 90px;
+    } 
+	
+	.img-produtos{
+		width: 100px;
+	}
+	
+	h1.h1{
+		font-size: 30px;
+	}
+
+    .texto{
+        background-color: #fcb7af;
+        height: 200px;
+    }
+
+    .imagens{
+        display: grid;
+        grid-template-areas: "img1" 
+                             "img2"
+                             "img3" 
+                             "img4";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    }
+	
+	.img-grid{
+	border: #ffe4e1 solid 10px;
+	width: 190px;
+	height: 160px;
+	margin-left: 27%;
+}
+	
+	.rodape{
+    font-family: 'rubik', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "um um um"
+	"dois dois dois"
+	"tres tres tres"
+    "h4 h4 h4";
+    border: solid black;
+    background-color:  #fcb7af;
+    width: 100%;
+    height: 30vh;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 2fr 1fr;
+    border: solid 2px  #ffe4e1;
+	}
+
+	.h4{
+    grid-area: h4;
+	background-color: #fcb7af;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	}
+
+	.um{
+	text-align: center;	
+	padding: 10px;
+	}
+	
+	.dois{
+	text-align: center;
+	padding: 10px;
+	}
+
+	.tres{
+	text-align:center;
+	padding: 10px;
+	}
+
+}
